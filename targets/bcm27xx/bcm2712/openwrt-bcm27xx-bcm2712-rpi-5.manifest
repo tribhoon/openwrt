@@ -1,5 +1,5 @@
 apk-mbedtls - 3.0.5-r3
-base-files - 1~26ffaa7
+base-files - 1~7ffa6e2
 bcm27xx-gpu-fw - 2025.04.30-r1
 bcm27xx-utils - 2025.03.14-r1
 brcmfmac-firmware-usb - 20260519-r1
@@ -28,7 +28,7 @@ iw - 6.17-r1
 jansson4 - 2.15.0-r1
 jshn - 2026.05.23~1fe93d2f-r1
 jsonfilter - 2026.03.16~b9034210-r1
-kernel - 6.12.92~f8f1ca9a5ba5327655d3a492406bf869-r1
+kernel - 6.12.92~2a4e5c1fa81501b7e58168b17f4026a6-r1
 kmod-brcmfmac - 6.12.92.6.18.26-r1
 kmod-brcmutil - 6.12.92.6.18.26-r1
 kmod-cfg80211 - 6.12.92.6.18.26-r1
@@ -143,7 +143,9 @@ kmod-usb-common - 6.12.92-r1
 kmod-usb-core - 6.12.92-r1
 kmod-usb-hid - 6.12.92-r1
 kmod-usb-net - 6.12.92-r1
+kmod-usb-net-cdc-ether - 6.12.92-r1
 kmod-usb-net-lan78xx - 6.12.92-r1
+kmod-usb-net-rndis - 6.12.92-r1
 kmod-usb-net-rtl8152 - 6.12.92-r1
 kmod-veth - 6.12.92-r1
 kmod-zram - 6.12.92-r1
