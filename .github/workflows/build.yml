@@ -1,0 +1,39 @@
+name: Build Pi 5 OpenWrt
+
+on:
+  workflow_dispatch: # Allows you to trigger the build manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential clang flex bison g++ awk gcc-multilib g++-multilib gettext git libncurses-dev libssl-dev python3-distutils rsync unzip zlib1g-dev
+
+      - name: Update and install feeds
+        run: |
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+
+      - name: Load custom config
+        run: |
+          mv pi5.config .config
+          make defconfig
+
+      - name: Download packages
+        run: make download -j8
+
+      - name: Compile OpenWrt
+        run: make -j$(nproc) || make -j1 V=s
+
+      - name: Deploy Packages to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./bin/
+          publish_branch: gh-pages
