@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a76",
+  "packages": {
+    "cgi-io": "2025.12.11~658b14bd-r1",
+    "libdbus": "1.16.2-r4",
+    "liblxc": "6.0.6-r1",
+    "libseccomp": "2.5.5-r1",
+    "lxc": "6.0.6-r1",
+    "lxc-attach": "6.0.6-r1",
+    "lxc-autostart": "6.0.6-r1",
+    "lxc-common": "6.0.6-r1",
+    "lxc-config": "6.0.6-r1",
+    "lxc-copy": "6.0.6-r1",
+    "lxc-destroy": "6.0.6-r1",
+    "lxc-info": "6.0.6-r1",
+    "lxc-ls": "6.0.6-r1",
+    "lxc-start": "6.0.6-r1",
+    "lxc-stop": "6.0.6-r1",
+    "lxc-top": "6.0.6-r1",
+    "mwan3": "2.12.1-r1",
+    "sqm-scripts": "1.7.2-r1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a76",
+  "packages": {
+    "liblucihttp-ucode": "2023.03.15~9b5b683f-r1",
+    "liblucihttp": "2023.03.15~9b5b683f-r1",
+    "luci-app-mwan3": "26.158.66357~46cd823",
+    "luci-app-sqm": "26.158.66357~46cd823",
+    "luci-base": "26.158.66357~46cd823",
+    "rpcd-mod-luci": "20240305-r1",
+    "ucode-mod-html": "1"
+  }
+}
