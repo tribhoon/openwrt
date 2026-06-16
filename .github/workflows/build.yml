@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: openwrt/openwrt
-          ref: v25.12.5 # Replace with the exact tag you want to build
+          ref: v25.12.4 # Replace with the exact tag you want to build
 
       # 2. Check out repository into a folder for pi5.config
       - name: Checkout own repo files
