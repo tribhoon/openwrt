@@ -46,6 +46,8 @@ jobs:
           echo "CONFIG_PACKAGE_bandix=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-bandix=y" >> .config
 
+          echo "CONFIG_PACKAGE_kmod-lib-textsearch=y" >> .config
+
           make defconfig
 
       # 7. Download all C-code dependencies
