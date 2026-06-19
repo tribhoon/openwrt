@@ -19,6 +19,7 @@
     "luci-mod-system": "26.133.20346~e9ebca7",
     "luci-proto-ipv6": "26.133.20346~e9ebca7",
     "luci-proto-ppp": "26.133.20346~e9ebca7",
+    "luci-proto-wireguard": "26.133.20346~e9ebca7",
     "luci-ssl": "26.133.20346~e9ebca7",
     "luci-theme-bootstrap": "26.133.20346~e9ebca7",
     "rpcd-mod-luci": "20240305-r1",

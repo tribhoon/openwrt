@@ -33,7 +33,7 @@ iw - 6.17-r1
 jansson4 - 2.14.1-r1
 jshn - 2026.03.13~81563384-r2
 jsonfilter - 2026.03.16~b9034210-r1
-kernel - 6.12.87~5150ef808d6c6b78953e586fccff11af-r1
+kernel - 6.12.87~8eb52a4838cf92f902926bb53ea0a30c-r1
 kmod-brcmfmac - 6.12.87.6.18.26-r1
 kmod-brcmutil - 6.12.87.6.18.26-r1
 kmod-cfg80211 - 6.12.87.6.18.26-r1
@@ -49,6 +49,11 @@ kmod-crypto-des - 6.12.87-r1
 kmod-crypto-ecb - 6.12.87-r1
 kmod-crypto-hash - 6.12.87-r1
 kmod-crypto-hmac - 6.12.87-r1
+kmod-crypto-kpp - 6.12.87-r1
+kmod-crypto-lib-chacha20 - 6.12.87-r1
+kmod-crypto-lib-chacha20poly1305 - 6.12.87-r1
+kmod-crypto-lib-curve25519 - 6.12.87-r1
+kmod-crypto-lib-poly1305 - 6.12.87-r1
 kmod-crypto-manager - 6.12.87-r1
 kmod-crypto-md5 - 6.12.87-r1
 kmod-crypto-null - 6.12.87-r1
@@ -148,6 +153,8 @@ kmod-spi-dw - 6.12.87-r1
 kmod-spi-dw-mmio - 6.12.87-r1
 kmod-thermal - 6.12.87-r1
 kmod-tun - 6.12.87-r1
+kmod-udptunnel4 - 6.12.87-r1
+kmod-udptunnel6 - 6.12.87-r1
 kmod-usb-common - 6.12.87-r1
 kmod-usb-core - 6.12.87-r1
 kmod-usb-hid - 6.12.87-r1
@@ -157,6 +164,7 @@ kmod-usb-net-lan78xx - 6.12.87-r1
 kmod-usb-net-rndis - 6.12.87-r1
 kmod-usb-net-rtl8152 - 6.12.87-r1
 kmod-veth - 6.12.87-r1
+kmod-wireguard - 6.12.87-r1
 kmod-zram - 6.12.87-r1
 libblkid1 - 2.41.3-r1
 libblobmsg-json20260213 - 2026.03.13~81563384-r2
@@ -229,6 +237,7 @@ luci-mod-status - 26.133.20346~e9ebca7
 luci-mod-system - 26.133.20346~e9ebca7
 luci-proto-ipv6 - 26.133.20346~e9ebca7
 luci-proto-ppp - 26.133.20346~e9ebca7
+luci-proto-wireguard - 26.133.20346~e9ebca7
 luci-ssl - 26.133.20346~e9ebca7
 luci-theme-bootstrap - 26.133.20346~e9ebca7
 lxc - 6.0.5-r1
@@ -261,6 +270,7 @@ procd-ujail - 2026.03.13~58eb263d-r1
 px5g-mbedtls - 11
 r8152-firmware - 20260221-r1
 r8169-firmware - 20260221-r1
+resolveip - 2
 rpcd - 2025.12.03~ffb9961c-r1
 rpcd-mod-file - 2025.12.03~ffb9961c-r1
 rpcd-mod-iwinfo - 2025.12.03~ffb9961c-r1
@@ -292,6 +302,7 @@ uhttpd-mod-ubus - 2025.10.03~ebb92e6b-r1
 urandom-seed - 3
 usign - 2025.10.03~c4c72b1b-r1
 wifi-scripts - 1.0-r1
+wireguard-tools - 1.0.20250521-r1
 wireless-regdb - 2026.03.18-r1
 wpad-basic-mbedtls - 2025.08.26~ca266cc2-r1
 xtables-nft - 1.8.10-r3
